@@ -1,9 +1,12 @@
 #
-#       Algoritmo para "dissecar" uma variavel
+#       Algoritmo que lê uma entrada de teclado e exibe informaçoes
 #
-n1 = input('Digite alguma coisa: ')
-print('O valor digitado é do tipo: ',type(n1))
-print(',É uma letra ou palavra ?',n1.isalpha())
-print(',É composto só de espaços ?', n1.isspace())
-print(',É numérico ?',n1.isnumeric())
-print(',É alfanumerico ?',n1.isalnum())
+a = input('Digite algo: ')
+print('O valor digitado é do tipo: ',type(a))
+print(',É composto só de espaços ?', a.isspace())
+print(',É um numero ?',a.isnumeric())
+print(',É alfabetico ?',a.isalpha())
+print(',É alfanumerico ?',a.isalnum())
+print(',Esta em maiusculas ?',a.isupper())
+print(',Esta em minusculas ?',a.islower())
+print(',Está capitalizada ?', a.istitle())
