@@ -5,5 +5,5 @@
 #
 #                                  /////////considere\\\\\\\\\\\\
 #                                   -----US$1,00=R$3,27-----
-wallet = float(input('Quantos reais você tem na carteira?'))
+wallet = float(input('Quantos reais você tem na carteira?R$:'))
 print('Caso queira trocar todo seu dinheiro em dólares, você terá US$:{:.2f}'.format(wallet/3.27))
