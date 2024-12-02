@@ -4,5 +4,5 @@
 #           seu dobro, triplo e quadrado
 #
 #
-num1 = int(input('Digite um número inteiro: '))
-print('O dobro de {} é: {}\nSeu triplo é : {}\nE seu quadrado é: {}'.format(num1, num1*2, num1*3, num1**2))
+n = int(input('Digite um número inteiro: '))
+print('O dobro de {} é: {}.\nSeu triplo é : {}.\nA raiz quadrada é: {:.2f}.'.format(n, n*2, n*3, n** (1/2)))
