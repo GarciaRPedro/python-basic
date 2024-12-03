@@ -5,4 +5,4 @@
 #
 #
 salario = float(input('Digite o valor que receberá o reajuste R$: '))
-print('O valor de {}, será alterado para {}, com o aumento de 15%.'.format(salario, salario + salario * 0.15))
+print('O valor de {}, será alterado para {:.2f}, com o aumento de 15%.'.format(salario, salario + salario * 0.15))
