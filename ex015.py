@@ -10,5 +10,5 @@
 distancia = float(input('Digite quantos Kilômetros o carro percorreu:'))
 dias = int(input('Digite quantos dias você ficou com o carro: '))
 total = (dias * 60) + (distancia * 0.15)
-print('Você deve pagar no total:\nR$:{} pelos dias e R${} pela distancia.\nDando um total de R$: {}.'.format(dias * 60, distancia * 0.15, total))
+print('Você deve pagar pelo aluguel\nR$:{} pelos dias e R${} pela distancia.\nDando um total de R$: {:.2f}.'.format(dias * 60, distancia * 0.15, total))
 
