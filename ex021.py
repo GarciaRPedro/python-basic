@@ -1,6 +1,6 @@
 #
 #
-#                   Algoritmo que abra e reproduza um arquivo MP3
+#                   Algoritmo que abre e reproduz um arquivo MP3
 #
 #
 #
