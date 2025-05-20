@@ -26,7 +26,7 @@ frase.lstrip() = remove os espaços vazios no lado esquerdo (no inicio) da strin
 frase.split() = divide a string a partir dos espaços a partir dos espaços transformandoas em uma lista
 com todas as palavras de uma cadeia de caracteres
 
-"-".join(frase)
+'-'.join(frase) = reverte o split adicionando um caractere entre as palavras juntando todos os elementos de 'frase'
 
 """
 
