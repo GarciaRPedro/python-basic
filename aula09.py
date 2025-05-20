@@ -1,4 +1,6 @@
 """
+frase[x:y:z] = x (recebe o valor inicial do fatiamento), y (recebe o valor final do fatiamento), z (recebe o intervalo da analise )
+
 len(frase) = exibe informações sobre a frase
 
 frase.count('o') = conta quantas vezes o caractere entre aspas aparece na frase
@@ -29,9 +31,8 @@ com todas as palavras de uma cadeia de caracteres
 '-'.join(frase) = reverte o split adicionando um caractere entre as palavras juntando todos os elementos de 'frase'
 
 """
-
+frase = 'Curso em Video Python'
 #ex. 22 crie um programa que leia o nome completo de uma pessoa e mostre :
 #- O nome com todas as letras maiúsculas
 #- Quantas letras tem ao todo (sem considerar espaços)
 #- Quantas letras tem o primeiro nome
-#-
